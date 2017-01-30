@@ -9,13 +9,13 @@ Otherwise, simple start by running 'start-resting-duckling.bat'
 
 ## Usage
 
-Place GET requests to localhost:port/en/module/text%20input%20to%20parse, replacing module with the desired module from duckling.
+Place GET requests to http://localhost:port/en/module/text%20input%20to%20parse, replacing module with the desired module from duckling.
 Available modules are: time, temperature, number, ordinal, distance, volume, amount-of-money, duration, email, url, phone-number
 It should be straightforward to add the other languages (just need to define new routes - feel free to place a push request if you do it!)
 
 ## Options
 
-You can change the port the server listen to by editing the start-resting-ducking-bat script.
+You can change the port the server listen to by editing the start-resting-ducking-bat script. Default is 3003.
 
 ## License
 
